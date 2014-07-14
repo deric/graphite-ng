@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/graphite-ng/graphite-ng/chains"
-	"github.com/graphite-ng/graphite-ng/stores"
+	"./chains"
+	"./stores"
 )
 
 func ReadMetric(name string) (our_el chains.ChainEl) {

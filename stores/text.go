@@ -3,9 +3,9 @@ package stores
 import (
 	"bufio"
 	"fmt"
-	"github.com/graphite-ng/graphite-ng/chains"
-	"github.com/graphite-ng/graphite-ng/config"
-	"github.com/graphite-ng/graphite-ng/metrics"
+	"./../chains"
+	"./../config"
+	"./../metrics"
 	"io/ioutil"
 	"os"
 	"strconv"

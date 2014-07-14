@@ -2,9 +2,9 @@ package stores
 
 import (
 	"errors"
-	"github.com/graphite-ng/graphite-ng/chains"
-	"github.com/graphite-ng/graphite-ng/config"
-	"github.com/graphite-ng/graphite-ng/metrics"
+	"./../chains"
+	"./../config"
+	"./../metrics"
 )
 
 var InitFn = make(map[string]func(config config.Main) Store)

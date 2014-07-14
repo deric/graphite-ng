@@ -3,11 +3,11 @@ package stores
 import (
 	"errors"
 	"fmt"
-	"github.com/graphite-ng/graphite-ng/chains"
-	"github.com/graphite-ng/graphite-ng/config"
-	"github.com/graphite-ng/graphite-ng/metrics"
-	"github.com/mattbaird/elastigo/api"
-	"github.com/mattbaird/elastigo/core"
+	"./../chains"
+	"./../config"
+	"./../metrics"
+	"github.com/bejayoharen/elastigo/api"
+	"github.com/bejayoharen/elastigo/core"
 	"strconv"
 )
 
